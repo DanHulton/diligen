@@ -15,11 +15,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 Run `npm install` from the project folder to ensure all NPM packages are installed.
 
-run `npm start` to start the service.  If you plan on making changes to the client code (located in `client-src`), run `npm run watch-client` to ensure that changes to client code are automatically compiled when changed.
+Run `npm start` to start the service.
+
+If you have `supervisor` installed globally, you can run `npm run dev` to ensure that modified sever code is reloaded automatically when changed.
+
+If you plan on making changes to the client code (located in `client-src`), run `npm run develop-client` to ensure that changes to client code are automatically compiled when changed.
 
 ## Running tests
 
-To test files, run `npm test`.
+To test all files, run `npm test`.
 
 ## Deployment
 
