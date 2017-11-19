@@ -1,0 +1,30 @@
+{
+  "name": "diligen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "npm run build-js && node index.js",
+    "test": "jest --silent",
+    "build-js": "webpack",
+    "watch-client": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanHulton/diligen.git"
+  },
+  "author": "Dan Hulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanHulton/diligen/issues"
+  },
+  "homepage": "https://github.com/DanHulton/diligen#readme",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "jest": "21.2.1",
+    "webpack": "3.8.1"
+  }
+}
