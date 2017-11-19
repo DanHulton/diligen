@@ -1,7 +1,6 @@
-# Diligen Document Server
+# Diligen Document Highlighter
 
-Example document server for Diligen.
-
+Example document highlighter for Diligen.
 
 ## Getting Started
 
@@ -24,7 +23,9 @@ To test files, run `npm test`.
 
 ## Deployment
 
-The application is deployed to Heroku at: https://nameless-fortress-15271.herokuapp.com/
+The application is deployed to Heroku at: https://nameless-fortress-15271.herokuapp.com/.
+
+Username and password should have been emailed to you.
 
 ## Author
 
