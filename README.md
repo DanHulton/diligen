@@ -24,7 +24,7 @@ To test files, run `npm test`.
 
 ## Deployment
 
-The application is deployed to Heroku at: ---
+The application is deployed to Heroku at: https://nameless-fortress-15271.herokuapp.com/
 
 ## Author
 

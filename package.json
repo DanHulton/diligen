@@ -5,10 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "npm run build-js && node index.js",
+    "start": "node index.js",
+    "dev": "supervisor index.js",
     "test": "jest --silent",
-    "build-js": "webpack",
-    "watch-client": "webpack --watch"
+    "develop-client": "webpack --watch"
   },
   "repository": {
     "type": "git",
